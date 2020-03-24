@@ -2,13 +2,18 @@ body {
     background-color: #B2EBF2;
 }
 
-li {
-    display: inline;
-
+nav {
+    background-color: #00796B;
+    
 }
 
 .center {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+a{
+    color: white;
+    
 }

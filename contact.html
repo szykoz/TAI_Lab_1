@@ -9,22 +9,11 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
-<body>
-<nav class="navbar" style="background-color: #00796B">
-    <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link" href="index.html"><font color="white">Home</font></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="quiz.html"><font color="white">Quiz</font></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html"><font color="white">Kontakt</font></a>
-        </li>
-    </ul>
-</nav>
+<body>    
+    <div id="navbar"></div>
 
 <div class="container">
+    
     <label>
         <h3>Uzupełnij dane:</h3>
     </label>
@@ -68,9 +57,9 @@
                         <option selected>Wybierz...</option>
                         <script language="javascript" type="text/javascript">
 
-                for(var d=1;d<100;d++)
+                for(let i=18;i<100;i++)
                 {
-                    document.write("<option>"+d+"</option>");
+                    document.write("<option>"+i+"</option>");
                 }
 
 
@@ -97,10 +86,12 @@
         </div>
 
     </div>
+
     <footer class="center">
         <span>Copyrights & copy; Szymon Kozioł | 2020</span>
     </footer>
 </div>
+<script src="navbar.js"></script>
 
 </body>
 </html>
