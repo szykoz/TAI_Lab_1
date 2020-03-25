@@ -2,6 +2,11 @@ body {
     background-color: #B2EBF2;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 nav {
     background-color: #00796B;
     
@@ -13,7 +18,14 @@ nav {
     justify-content: center;
 }
 
-a{
+a {
     color: white;
     
+}
+
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
 }
